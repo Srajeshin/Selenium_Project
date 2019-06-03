@@ -25,12 +25,13 @@ public class ScreenShot {
 	// the driver information will be given by selenium test case 
 	public ScreenShot(WebDriver driver){
 		this.driver = driver; 
+		
 	}
 	
 	public void captureScreenShot(){
 		
 		// to be changed 
-		String path = "C:\\Users\\Naveen\\Desktop\\screenshots\\";
+		String path = "C:\\Users\\SethuramaRaoRajeshs\\Desktop\\screenshots\\";
 		String fileName ="";
 
 		GregorianCalendar calendar = new GregorianCalendar(); 
@@ -66,7 +67,7 @@ public class ScreenShot {
 
 	public void captureScreenShot(String fileName){
 		
-		String path =  "C:\\Users\\Naveen\\Desktop\\screenshots\\";
+		String path =  "C:\\Users\\SethuramaRaoRajeshs\\Desktop\\screenshots\\";
 	
 		// 1. create file 
 		// 2. capture screenshot from selenium 
