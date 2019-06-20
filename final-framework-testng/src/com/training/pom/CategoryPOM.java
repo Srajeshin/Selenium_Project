@@ -42,8 +42,8 @@ public class CategoryPOM {
 	@FindBy(xpath = "//p[.='Categories deleted.']")
 	private WebElement deleteConfirmation;
 
-	public void clickCategory() throws InterruptedException {
-		Thread.sleep(3000);
+	public void clickCategory()   {
+		
 		this.categoryLink.click();
 	}
 
@@ -63,8 +63,8 @@ public class CategoryPOM {
 		this.addNewCategory.click();
 	}
 
-	public void clickCategoryCheckbox() throws InterruptedException {
-		Thread.sleep(3000);
+	public void clickCategoryCheckbox()   {
+	
 		this.categoryCheckBox.click();
 	}
 

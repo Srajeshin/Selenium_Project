@@ -57,23 +57,16 @@ public class LoginTests {
 	@AfterMethod
 	public void tearDown() throws Exception {
 	//	Thread.sleep(1000);
-		//driver.quit();
+	driver.quit();
 	}
 	//@Test(priority=1)
 	public void validLoginTest()  {
 	System.out.println("Starting test ");  
-		loginPOM.clicksiginBtn();
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		loginPOM.sendUserName("admin");
+	 loginPOM.clicksiginBtn();
+						loginPOM.sendUserName("admin");
 		loginPOM.sendPassword("admin@123");
 	    loginPOM.clickloginBtn();
-		
-				
+			   
 	}
 	@Test(priority=1)
 	public void validateTrashTest() throws InterruptedException {

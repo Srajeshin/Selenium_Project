@@ -33,10 +33,10 @@ public class TagPOM {
 
 	@FindBy(xpath = "//input[@name='submit']")
 	private WebElement addNewTagBtn;
-	
+
 	@FindBy(xpath = "//input[@id='tag-search-input']")
 	private WebElement searchInputTxt;
-	
+
 	@FindBy(xpath = "//input[@id='search-submit']")
 	private WebElement searchTagBtn;
 
@@ -72,6 +72,5 @@ public class TagPOM {
 	public void clickSearchTagBtn() {
 		this.searchTagBtn.click();
 	}
-	
-	
+
 }
