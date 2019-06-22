@@ -1,29 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30913" started-at="2019-06-19T17:55:37Z" finished-at="2019-06-19T17:56:08Z">
+  <suite name="Default suite" duration-ms="86807" started-at="2019-06-22T08:50:31Z" finished-at="2019-06-22T08:51:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30913" started-at="2019-06-19T17:55:37Z" finished-at="2019-06-19T17:56:08Z">
-      <class name="com.training.sanity.tests.RETC_046_PropertyDetails">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_046_PropertyDetails@3abbfa04]" name="setUpBeforeClass" is-config="true" duration-ms="57" started-at="2019-06-19T17:55:37Z" finished-at="2019-06-19T17:55:37Z">
+    <test name="Default test" duration-ms="86807" started-at="2019-06-22T08:50:31Z" finished-at="2019-06-22T08:51:58Z">
+      <class name="com.training.regression.tests.LoginExcelTestMultipleFeature">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.LoginExcelTestMultipleFeature@57fffcd7]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2019-06-22T08:50:31Z" finished-at="2019-06-22T08:50:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_046_PropertyDetails@3abbfa04]" name="setUp" is-config="true" duration-ms="20127" started-at="2019-06-19T17:55:37Z" finished-at="2019-06-19T17:55:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTestMultipleFeature@57fffcd7]" name="setUp" is-config="true" duration-ms="22639" started-at="2019-06-22T08:50:32Z" finished-at="2019-06-22T08:50:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="propertiesPOMTest()[pri:1, instance:com.training.sanity.tests.RETC_046_PropertyDetails@3abbfa04]" name="propertiesPOMTest" duration-ms="10701" started-at="2019-06-19T17:55:57Z" finished-at="2019-06-19T17:56:08Z">
+        <test-method status="PASS" signature="RETC_079(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTestMultipleFeature@57fffcd7]" name="RETC_079" duration-ms="13242" started-at="2019-06-22T08:50:54Z" data-provider="excel-inputs4" finished-at="2019-06-22T08:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Launches]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[launch]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ankit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[New Launches of vilas apartments flats]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- propertiesPOMTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_046_PropertyDetails@3abbfa04]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-06-19T17:56:08Z" finished-at="2019-06-19T17:56:08Z">
+        </test-method> <!-- RETC_079 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTestMultipleFeature@57fffcd7]" name="tearDown" is-config="true" duration-ms="943" started-at="2019-06-22T08:51:07Z" finished-at="2019-06-22T08:51:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RETC_046_PropertyDetails -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTestMultipleFeature@57fffcd7]" name="setUp" is-config="true" duration-ms="17165" started-at="2019-06-22T08:51:08Z" finished-at="2019-06-22T08:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="RETC_079(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTestMultipleFeature@57fffcd7]" name="RETC_079" duration-ms="5391" started-at="2019-06-22T08:51:26Z" data-provider="excel-inputs4" finished-at="2019-06-22T08:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mana Apartments]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[launch]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[New Launches of vilas apartments flats]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RETC_079 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTestMultipleFeature@57fffcd7]" name="tearDown" is-config="true" duration-ms="996" started-at="2019-06-22T08:51:31Z" finished-at="2019-06-22T08:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTestMultipleFeature@57fffcd7]" name="setUp" is-config="true" duration-ms="17547" started-at="2019-06-22T08:51:32Z" finished-at="2019-06-22T08:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="RETC_079(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTestMultipleFeature@57fffcd7]" name="RETC_079" duration-ms="7833" started-at="2019-06-22T08:51:49Z" data-provider="excel-inputs4" finished-at="2019-06-22T08:51:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brigade Apartments]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[post sale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Interior]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[New flats for sale]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RETC_079 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTestMultipleFeature@57fffcd7]" name="tearDown" is-config="true" duration-ms="904" started-at="2019-06-22T08:51:57Z" finished-at="2019-06-22T08:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.regression.tests.LoginExcelTestMultipleFeature -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,8 +1,7 @@
 package com.training.sanity.tests;
 
 /**
- * 
- * @author Rajesh
+  * @author Rajesh
  * @see this class will help to check whether application allows admin to reply for the comment added by user
  * * * * @since 10-Jun-2019
  */

@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.RETC_046_PropertyDetails">
+      <class name="com.training.regression.tests.LoginExcelTestMultipleFeature">
         <methods>
-          <include name="propertiesPOMTest"/>
+          <include name="tearDown"/>
+          <include name="RETC_079" invocation-numbers="0 1 2"/>
           <include name="setUpBeforeClass"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.RETC_046_PropertyDetails -->
+      </class> <!-- com.training.regression.tests.LoginExcelTestMultipleFeature -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
